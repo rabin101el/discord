@@ -65,4 +65,19 @@
         left: 30%;
         font-family: 'Ubuntu', sans-serif;
       }
-  
+  .link{
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 65%;
+    left: 1%;
+    border: 3px solid black;
+
+  }
+  .link2{
+    position: absolute;
+    top: 67%;
+    font-weight: bold;
+    color: white;
+    left: 51%;
+  }
