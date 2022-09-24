@@ -65,3 +65,8 @@
         left: 30%;
         font-family: 'Ubuntu', sans-serif;
       }
+      @media screen and (max-width: 768px){
+       img{
+         align-items: center;
+       } 
+      }
