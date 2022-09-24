@@ -1,0 +1,73 @@
+   @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+    
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Ubuntu&display=swap');
+    
+    body{
+      padding: 0px;
+      margin: 0px;
+      
+    }
+      .top{
+        text-align: center;
+        font-family: 'Bungee Spice', cursive;
+        position: absolute;
+        top: 13%;
+        left: 15%;
+      }
+      img{
+        width: 100px;
+        position: absolute;
+        left: 35%;
+      }
+      .discord{
+        width: 50px;
+        position: absolute;
+        left: 1%;
+        top: 3%;
+      }
+      .youtube{
+        width: 100px;
+        position: absolute;
+        left: 80%;
+        top: 1%;
+      }
+      .id{
+        width: 200px;
+        position: absolute;
+        top: 40%;
+        left: 1%;
+        height: 150px;
+        border: 3px solid black;
+      }
+      .text{
+        font-size: 25px;
+        position: absolute;
+        top: 45%;
+        left: 51%;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+      }
+      .status{
+        color: white;
+       font-weight: bold;
+       position: absolute;
+       top: 27%;
+       left: 40%;
+       font-family: 'Ubuntu', sans-serif;
+       
+      }
+      summary{
+        position: absolute;
+        top: 25%;
+        font-size: 30px;
+        left: 30%;
+        font-family: 'Ubuntu', sans-serif;
+      }
+@media screen and (max-width: 900px){
+  body{background-color: pink;}
+}
+@media screen and(max-width: 600px){
+  body{background-color: red;}
+}
